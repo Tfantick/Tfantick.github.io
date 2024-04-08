@@ -1,0 +1,198 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 8px solid #505050;
+    background-image:url(back.jpg) ;
+    background-size: cover;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+body{
+  background-image: url('5.jpg');
+  background-size: cover;
+  margin: 0;
+  padding-left: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  h1 {
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    font-family:'Courier New', Courier, monospace
+  }
+  p{
+    color: #000000;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #000000;
+  }
+
+  .line-h {
+    width: 4px;
+  height: 100px;
+  background-color: #000000;
+  }
+
+  .file {
+    width: 60vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a3a3a3;
+    background-image: url('file.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    border: 4px solid #423910;
+    margin-top: 50px;
+    text-align: center;
+    height: 40vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .file-img{
+    width: 90%;
+    border-radius: 10px;
+    border: 4px solid #000000;
+  }
+  
+  #modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  #modal2 {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  #modal3 {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  #modal-content {
+    background-color: #FFDC3E;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid #000;
+    width: 80%;
+  }
+  
+  .close {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #3a3a3a;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close2 {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #3a3a3a;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close3 {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: #3a3a3a;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  button{
+    flex: auto;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .button-img{
+    width: 25%;
+  }
+
+  header{
+    background-color: #FFDC3E;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    padding: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-image: url('lent.jpg');
+    background-size: cover;
+  }
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+
